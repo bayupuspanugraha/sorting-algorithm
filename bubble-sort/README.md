@@ -4,7 +4,7 @@
 
 This algorithm is the easiest sorting algorithm. The main idea is doing scanning for entire collection data and compare them one by one.
 
-Due to this process this algorithm has the worst performance with average complexity `O(n^2)`.
+Due to this process this algorithm has the worst performance with `O(n^2)` swaps and comparations. The best performance with `O(n)` comparation and `O(1)` swaps.
 
 <br />
 

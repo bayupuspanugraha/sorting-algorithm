@@ -7,6 +7,7 @@ This project consists of several sorting algorithm which having simple explanati
 ## List of Algorithm
 
 - [BubbleSort](./bubble-sort)
+- [InsertionSort](./insertion-sort)
 
 # License
 
