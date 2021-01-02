@@ -32,7 +32,7 @@ End Function
 
 ## 4. Simulation
 
-Given 3 integers data collections [10, 4, 9, 3, 5], the process would be:
+Given 5 integers data collections [10, 4, 9, 3, 5], the process would be:
 
 Iteration 1 of X:
 
