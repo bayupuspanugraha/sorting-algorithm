@@ -40,48 +40,48 @@ Iteration index 1 of X:
 
 - Set Target = 4
 - Set Prev = 0
-- While 0 >= 0 and 10 > 4
-  - Set data collection of Prev + 1 to be => [10, 10, 9, 3, 5]
+- While Index 0 >= 0 and Value 10 > 4
+  - Set Value of Index 1 to be => [10, **10**, 9, 3, 5]
   - Set Prev = -1
-- Set data collection of Prev + 1 to be => [4, 10, 9, 3, 5]
+- Set Value of Index 0 to be => [**4**, 10, 9, 3, 5]
 
 Iteration index 2 of X:
 
 - Set Target = 9
 - Set Prev = 1
-- While 1 >= 0 and 10 > 9
-  - Set data collection of Prev + 1 to be => [4, 10, 10, 3, 5]
+- While Index 1 >= 0 and Value 10 > 9
+  - Set Value of Index 2 to be => [4, 10, **10**, 3, 5]
   - Set Prev = 0
-- While 0 >= 0 and 4 > 9
-- Set data collection of Prev + 1 to be => [4, 9, 10, 3, 5]
+- While Index 0 >= 0 and Value 4 > 9
+- Set Value of Index 1 to be => [4, **9**, 10, 3, 5]
 
 Iteration index 3 of X:
 
 - Set Target = 3
 - Set Prev = 2
-- While 2 >= 0 and 10 > 3
-  - Set data collection of Prev + 1 to be => [4, 9, 10, 10, 5]
+- While Index 2 >= 0 and Value 10 > 3
+  - Set Value of Index 3 to be => [4, 9, 10, **10**, 5]
   - Set Prev = 1
-- While 1 >= 0 and 9 > 3
-  - Set data collection of Prev + 1 to be => [4, 9, 9, 10, 5]
+- While Index 1 >= 0 and Value 9 > 3
+  - Set Value of Index 2 to be => [4, 9, **9**, 10, 5]
   - Set Prev = 0
-- While 0 >= 0 and 4 > 3
-  - Set data collection of Prev + 1 to be => [4, 4, 9, 10, 5]
+- While Index0 >= 0 and Value 4 > 3
+  - Set Value of Index 1 to be => [4, **4**, 9, 10, 5]
   - Set Prev = -1
-- Set data collection of Prev + 1 to be => [3, 4, 9, 10, 5]
+- Set Value of Index 0 to be => [**3**, 4, 9, 10, 5]
 
 Iteration index 4 of X:
 
 - Set Target = 5
 - Set Prev = 3
-- While 3 >= 0 and 10 > 5
-  - Set data collection of Prev + 1 to be => [3, 4, 9, 10, 10]
+- While Index 3 >= 0 and Value 10 > 5
+  - Set Value of Index 4 to be => [3, 4, 9, 10, **10**]
   - Set Prev = 2
-- While 2 >= 0 and 9 > 5
-  - Set data collection of Prev + 1 to be => [3, 4, 9, 9, 10]
+- While Index 2 >= 0 and Value 9 > 5
+  - Set Value of Index 3 to be => [3, 4, 9, **9**, 10]
   - Set Prev = 1
-- While 1 >= 0 and 4 > 5
-- Set data collection of Prev + 1 to be => [3, 4, 5, 9, 10]
+- While Index 1 >= 0 and Value 4 > 5
+- Set Value of Index 2 to be => [3, 4, **5**, 9, 10]
 
 <br />
 
