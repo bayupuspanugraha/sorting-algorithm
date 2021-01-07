@@ -12,11 +12,11 @@ Due to this process this algorithm has the worst performance with `O(n^2)` compa
 
 ```
 Function SelectionSort (dataColls)
-    Loop x = 0 to (length of dataColls) - 2
+    Loop x = 0 to (length of dataColls) - 2 increment by 1
         Set minIndex = x
         Set minValue = data[minIndex]
 
-        Loop y = x +1 to (length of dataColls) -1
+        Loop y = x+1 to (length of dataColls) -1 increment by 1
             Check data[y] < minValue then
               minIndex = y
               minValue = data[y]

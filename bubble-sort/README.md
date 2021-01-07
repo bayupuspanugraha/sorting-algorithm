@@ -12,8 +12,8 @@ Due to this process this algorithm has the worst performance with `O(n^2)` swaps
 
 ```
 Function BubbleSort (dataColls)
-    Loop x = 0 to (length of dataColls) - 1
-        Loop y = 0 to (length of dataColls) - 2
+    Loop x = 0 to (length of dataColls) - 1 increment by 1
+        Loop y = 0 to (length of dataColls) - 2 increment by 1
             Check dataColls[y] > dataColls[y + 1] then
                 Set temp = dataColls[y]
                 Set dataColls[y] = dataColls[y + 1]

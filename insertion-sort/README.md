@@ -12,7 +12,7 @@ Due to this process this algorithm has the worst performance with `O(n^2)` swaps
 
 ```
 Function InsertionSort (dataColls)
-    Loop x = 1 to (length of dataColls) - 1
+    Loop x = 1 to (length of dataColls) - 1 increment by 1
         Set target = data[x]
         Set prev = x - 1
 
