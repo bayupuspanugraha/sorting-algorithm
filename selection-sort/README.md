@@ -14,17 +14,17 @@ Due to this process this algorithm has the worst performance with `O(n^2)` compa
 Function SelectionSort (dataColls)
     Loop x = 0 to (length of dataColls) - 2 increment by 1
         Set minIndex = x
-        Set minValue = data[minIndex]
+        Set minValue = dataColls[minIndex]
 
         Loop y = x+1 to (length of dataColls) -1 increment by 1
-            Check data[y] < minValue then
+            Check dataColls[y] < minValue then
               minIndex = y
-              minValue = data[y]
+              minValue = dataColls[y]
             End Check
         End For
 
-        data[minIndex] = data[x]
-        data[x] = minValue
+        dataColls[minIndex] = dataColls[x]
+        dataColls[x] = minValue
 
         print latest value of dataColls for each iteration
     End Loop
@@ -100,3 +100,7 @@ Iteration index 3 of X:
 # License
 
 MIT
+
+# Love it and want to by me a coffee?
+
+[![https://www.buymeacoffee.com/bayunugraha](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)](https://www.buymeacoffee.com/bayunugraha)
